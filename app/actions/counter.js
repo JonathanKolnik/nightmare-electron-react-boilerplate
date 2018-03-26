@@ -1,6 +1,8 @@
 // @flow
 import type { counterStateType } from '../reducers/counter';
 
+var Nightmare = require('nightmare');
+
 type actionType = {
   +type: string
 };
